@@ -1,0 +1,104 @@
+{
+  "app": {
+    "name": "BookMemo",
+    "tagline": "The essence of your favorite books, always at hand"
+  },
+  "nav": {
+    "catalog": "Catalog",
+    "addBook": "Add a book",
+    "language": "Language"
+  },
+  "themes": {
+    "business": "Business",
+    "personalDev": "Personal development",
+    "psychology": "Psychology",
+    "finance": "Finance",
+    "techDev": "Tech & Dev",
+    "productivity": "Productivity",
+    "leadership": "Leadership",
+    "health": "Health & wellbeing",
+    "philosophy": "Philosophy",
+    "creativity": "Creativity",
+    "other": "Other"
+  },
+  "status": {
+    "toRead": "To read",
+    "reading": "Reading",
+    "read": "Read"
+  },
+  "catalog": {
+    "searchPlaceholder": "Search a title, author, idea...",
+    "filterByTheme": "Theme",
+    "filterByStatus": "Status",
+    "allThemes": "All themes",
+    "allStatuses": "All statuses",
+    "emptyTitle": "Your catalog is empty",
+    "emptyBody": "Add your first book to start building your library of summaries.",
+    "emptyCta": "Add a book",
+    "noResults": "No book matches your search.",
+    "bookCount": "{count, plural, =0 {No books} one {# book} other {# books}}",
+    "suggestedTitle": "Suggestions for you",
+    "suggestedBody": "Classics related to your interests (software architecture, freelancing, finance, productivity). One click prefills the sheet and generates a draft.",
+    "suggestedAdd": "Add"
+  },
+  "bookCard": {
+    "by": "by {author}"
+  },
+  "bookDetail": {
+    "keyIdeas": "Key ideas",
+    "takeaways": "What to remember",
+    "tips": "Tips",
+    "howToApply": "How to apply it",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirmTitle": "Delete this book?",
+    "deleteConfirmBody": "This action is permanent and will remove the summary for \"{title}\".",
+    "deleteConfirmAction": "Delete",
+    "cancel": "Cancel",
+    "print": "Export as PDF",
+    "back": "Back to catalog",
+    "readingTime": "{minutes} min read",
+    "notFound": "This book does not exist or has been deleted.",
+    "backToCatalog": "Back to catalog"
+  },
+  "bookForm": {
+    "addTitle": "Add a book",
+    "editTitle": "Edit book",
+    "titleLabel": "Book title",
+    "titlePlaceholder": "E.g. Atomic Habits",
+    "authorLabel": "Author",
+    "authorPlaceholder": "E.g. James Clear",
+    "themesLabel": "Themes",
+    "themesPlaceholder": "Add a theme and press Enter",
+    "statusLabel": "Reading status",
+    "ratingLabel": "Personal rating",
+    "coverLabel": "Cover",
+    "coverSearching": "Searching for cover...",
+    "coverNotFound": "No cover found, you can continue without one.",
+    "coverRetry": "Search again",
+    "keyIdeasLabel": "Key ideas",
+    "keyIdeasHelp": "The book's core concepts, one per line.",
+    "takeawaysLabel": "What to remember",
+    "takeawaysHelp": "The essential points to remember, one per line.",
+    "tipsLabel": "Tips",
+    "tipsHelp": "Concrete advice from the book, one per line.",
+    "howToApplyLabel": "How to apply it",
+    "howToApplyHelp": "Concrete actions to put the book into practice, one per line.",
+    "generateDraft": "Generate a draft",
+    "generating": "Generating summary...",
+    "generateHelp": "Fill in the title and author, then generate a full draft to review and adjust.",
+    "generateError": "Could not generate a draft right now. You can continue with manual entry.",
+    "draftNotice": "Automatically generated draft: review and adjust before saving.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "titleRequired": "Title is required.",
+    "authorRequired": "Author is required.",
+    "addLinePlaceholder": "Add a line..."
+  },
+  "footer": {
+    "copyright": "© {year} Riadh MNASRI"
+  },
+  "common": {
+    "loading": "Loading..."
+  }
+}

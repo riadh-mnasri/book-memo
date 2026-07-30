@@ -1,0 +1,104 @@
+{
+  "app": {
+    "name": "BookMemo",
+    "tagline": "L'essentiel de tes livres préférés, toujours sous la main"
+  },
+  "nav": {
+    "catalog": "Catalogue",
+    "addBook": "Ajouter un livre",
+    "language": "Langue"
+  },
+  "themes": {
+    "business": "Business",
+    "personalDev": "Développement personnel",
+    "psychology": "Psychologie",
+    "finance": "Finance",
+    "techDev": "Tech & Dev",
+    "productivity": "Productivité",
+    "leadership": "Leadership",
+    "health": "Santé & bien-être",
+    "philosophy": "Philosophie",
+    "creativity": "Créativité",
+    "other": "Autre"
+  },
+  "status": {
+    "toRead": "À lire",
+    "reading": "En cours",
+    "read": "Lu"
+  },
+  "catalog": {
+    "searchPlaceholder": "Rechercher un titre, un auteur, une idée...",
+    "filterByTheme": "Thème",
+    "filterByStatus": "Statut",
+    "allThemes": "Tous les thèmes",
+    "allStatuses": "Tous les statuts",
+    "emptyTitle": "Ton catalogue est vide",
+    "emptyBody": "Ajoute ton premier livre pour commencer à te constituer une bibliothèque de résumés.",
+    "emptyCta": "Ajouter un livre",
+    "noResults": "Aucun livre ne correspond à ta recherche.",
+    "bookCount": "{count, plural, =0 {Aucun livre} one {# livre} other {# livres}}",
+    "suggestedTitle": "Suggestions pour toi",
+    "suggestedBody": "Des classiques en lien avec tes centres d'intérêt (architecture logicielle, freelance, finance, productivité). Un clic pré-remplit la fiche et génère un brouillon.",
+    "suggestedAdd": "Ajouter"
+  },
+  "bookCard": {
+    "by": "par {author}"
+  },
+  "bookDetail": {
+    "keyIdeas": "Idées clés",
+    "takeaways": "Ce qu'il faut retenir",
+    "tips": "Astuces",
+    "howToApply": "Comment l'appliquer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "deleteConfirmTitle": "Supprimer ce livre ?",
+    "deleteConfirmBody": "Cette action est définitive et supprimera le résumé de \"{title}\".",
+    "deleteConfirmAction": "Supprimer",
+    "cancel": "Annuler",
+    "print": "Exporter en PDF",
+    "back": "Retour au catalogue",
+    "readingTime": "{minutes} min de lecture",
+    "notFound": "Ce livre n'existe pas ou a été supprimé.",
+    "backToCatalog": "Retour au catalogue"
+  },
+  "bookForm": {
+    "addTitle": "Ajouter un livre",
+    "editTitle": "Modifier le livre",
+    "titleLabel": "Titre du livre",
+    "titlePlaceholder": "Ex. Atomic Habits",
+    "authorLabel": "Auteur",
+    "authorPlaceholder": "Ex. James Clear",
+    "themesLabel": "Thèmes",
+    "themesPlaceholder": "Ajouter un thème et appuyer sur Entrée",
+    "statusLabel": "Statut de lecture",
+    "ratingLabel": "Note personnelle",
+    "coverLabel": "Couverture",
+    "coverSearching": "Recherche de la couverture...",
+    "coverNotFound": "Aucune couverture trouvée, tu peux continuer sans.",
+    "coverRetry": "Rechercher à nouveau",
+    "keyIdeasLabel": "Idées clés",
+    "keyIdeasHelp": "Les concepts centraux du livre, un par ligne.",
+    "takeawaysLabel": "Ce qu'il faut retenir",
+    "takeawaysHelp": "Les points essentiels à ne pas oublier, un par ligne.",
+    "tipsLabel": "Astuces",
+    "tipsHelp": "Des conseils concrets tirés du livre, un par ligne.",
+    "howToApplyLabel": "Comment l'appliquer",
+    "howToApplyHelp": "Des actions concrètes pour mettre le livre en pratique, une par ligne.",
+    "generateDraft": "Générer un brouillon",
+    "generating": "Génération du résumé...",
+    "generateHelp": "Renseigne le titre et l'auteur, puis génère un brouillon complet à relire et ajuster.",
+    "generateError": "Impossible de générer un brouillon pour le moment. Tu peux continuer en saisie manuelle.",
+    "draftNotice": "Brouillon généré automatiquement : relis et ajuste avant d'enregistrer.",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "titleRequired": "Le titre est obligatoire.",
+    "authorRequired": "L'auteur est obligatoire.",
+    "addLinePlaceholder": "Ajouter une ligne..."
+  },
+  "footer": {
+    "copyright": "© {year} Riadh MNASRI"
+  },
+  "common": {
+    "loading": "Chargement..."
+  }
+}
