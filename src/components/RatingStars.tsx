@@ -9,7 +9,7 @@ export function RatingStars({
   const interactive = Boolean(onChange);
 
   return (
-    <div className="flex items-center gap-1" role={interactive ? "radiogroup" : undefined}>
+    <div className="flex items-center" role={interactive ? "radiogroup" : undefined}>
       {stars.map((value) => (
         <button
           key={value}
@@ -17,7 +17,7 @@ export function RatingStars({
           disabled={!interactive}
           aria-label={`${value}`}
           onClick={() => onChange?.(value === rating ? 0 : value)}
-          className={`text-lg leading-none ${interactive ? "cursor-pointer" : "cursor-default"} ${
+          className={`p-1 text-lg leading-none ${interactive ? "cursor-pointer" : "cursor-default"} ${
             value <= rating ? "text-accent" : "text-border"
           }`}
         >

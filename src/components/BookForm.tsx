@@ -170,7 +170,7 @@ export function BookForm({
             <button
               type="button"
               onClick={() => searchCover(title, author)}
-              className="text-xs text-muted underline decoration-dotted hover:text-accent"
+              className="-mx-2 px-2 py-1.5 text-xs text-muted underline decoration-dotted hover:text-accent"
             >
               {t("coverRetry")}
             </button>
